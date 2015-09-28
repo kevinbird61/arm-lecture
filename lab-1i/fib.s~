@@ -23,9 +23,9 @@ fibonacci:
 	add r6,r5,r6			@ seq2 += seq1
 	mov r5,r0			@ seq1 = result
 	subs r4,r4,#1			@ n -= 1
-	bne .LoopIt			@ if r4 != 0
+	beq .LoopIt			@ if r4 != 0
 	
-	pop {r4, r5, r6, pc}		@EPILOG
+	pop {r3, r4, r5, pc}		@EPILOG
 
 	@ END CODE MODIFICATION
 
