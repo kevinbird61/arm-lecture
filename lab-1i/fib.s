@@ -14,6 +14,12 @@ fibonacci:
 	@ r0~r3 => return value , passing parameter
 	push {r4, r5, r6, lr}
 
+	cmp r0,#0
+	beq .L0
+
+	cmp r0,#1
+	beq .L1
+	
 	subs r4,r0,#0			@ r4 = n
 	mov r5,#0			@ r5 = seq1(0)
 	mov r6,#1			@ r6 = seq2(1)
@@ -26,6 +32,13 @@ fibonacci:
 	bne .LoopIt			@ if r4 != 0
 	
 	pop {r4, r5, r6, pc}		@EPILOG
+
+.L0:
+	mov r0,#0
+	pop {r4, r5, r6, pc}		@EPILOG
+.L1:
+	mov r0,#1
+	pop {r4, r5, r6, pc}		@EPILOG		
 
 	@ END CODE MODIFICATION
 
