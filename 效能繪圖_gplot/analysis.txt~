@@ -1,0 +1,298 @@
+Sequence is 1 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   100000     0.00     0.00  fib_rec
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.00     0.00   100000     0.00     0.00  iterative
+Sequence is 2 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   100000     0.00     0.00  fib_rec
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.00     0.00   100000     0.00     0.00  iterative
+Sequence is 3 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+100.00      0.01     0.01   100000   100.00   100.00  fib_tail_v2
+  0.00      0.01     0.00   100000     0.00     0.00  fib_rec
+  0.00      0.01     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.01     0.00   100000     0.00     0.00  iterative
+Sequence is 4 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   100000     0.00     0.00  fib_rec
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.00     0.00   100000     0.00     0.00  iterative
+Sequence is 5 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 75.00      0.03     0.03   100000   300.00   300.00  fib_rec
+ 25.00      0.04     0.01                             main
+  0.00      0.04     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.04     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.04     0.00   100000     0.00     0.00  iterative
+Sequence is 6 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   100000     0.00     0.00  fib_rec
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.00     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.00     0.00   100000     0.00     0.00  iterative
+Sequence is 7 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 87.50      0.04     0.04   100000   350.00   350.00  fib_rec
+ 12.50      0.04     0.01                             frame_dummy
+  0.00      0.04     0.00   100000     0.00     0.00  fib_tail
+  0.00      0.04     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.04     0.00   100000     0.00     0.00  iterative
+Sequence is 8 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 37.50      0.01     0.01   100000   150.00   150.00  fib_rec
+ 25.00      0.03     0.01   100000   100.00   100.00  fib_tail
+ 25.00      0.04     0.01                             main
+ 12.50      0.04     0.01                             frame_dummy
+  0.00      0.04     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.04     0.00   100000     0.00     0.00  iterative
+Sequence is 9 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 85.71      0.06     0.06   100000   600.00   600.00  fib_rec
+  7.14      0.07     0.01   100000    50.00    50.00  fib_tail
+  7.14      0.07     0.01                             frame_dummy
+  0.00      0.07     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.07     0.00   100000     0.00     0.00  iterative
+Sequence is 10 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 80.95      0.17     0.17   100000     1.70     1.70  fib_rec
+  4.76      0.18     0.01   100000     0.10     0.10  fib_tail
+  4.76      0.19     0.01   100000     0.10     0.10  iterative
+  4.76      0.20     0.01                             frame_dummy
+  4.76      0.21     0.01                             main
+  0.00      0.21     0.00   100000     0.00     0.00  fib_tail_v2
+Sequence is 11 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 90.00      0.27     0.27   100000     2.70     2.70  fib_rec
+  5.00      0.28     0.01                             frame_dummy
+  3.33      0.29     0.01                             main
+  1.67      0.30     0.01   100000     0.05     0.05  fib_tail
+  0.00      0.30     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      0.30     0.00   100000     0.00     0.00  iterative
+Sequence is 12 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 82.86      0.29     0.29   100000     2.90     2.90  fib_rec
+  5.71      0.31     0.02   100000     0.20     0.20  fib_tail
+  5.71      0.33     0.02                             frame_dummy
+  4.29      0.34     0.01   100000     0.15     0.15  fib_tail_v2
+  1.43      0.35     0.01   100000     0.05     0.05  iterative
+Sequence is 13 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 84.75      0.50     0.50   100000     5.00     5.00  fib_rec
+  6.78      0.54     0.04   100000     0.40     0.40  fib_tail
+  5.08      0.57     0.03                             frame_dummy
+  2.54      0.58     0.01   100000     0.15     0.15  iterative
+  0.85      0.59     0.01   100000     0.05     0.05  fib_tail_v2
+Sequence is 14 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 88.74      0.98     0.98   100000     9.85     9.85  fib_rec
+  5.86      1.05     0.07                             frame_dummy
+  4.50      1.10     0.05   100000     0.50     0.50  fib_tail
+  0.90      1.11     0.01   100000     0.10     0.10  fib_tail_v2
+  0.00      1.11     0.00   100000     0.00     0.00  iterative
+Sequence is 15 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 88.26      1.31     1.31   100000    13.15    13.15  fib_rec
+  6.71      1.42     0.10   100000     1.00     1.00  fib_tail
+  5.03      1.49     0.07                             frame_dummy
+  0.00      1.49     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      1.49     0.00   100000     0.00     0.00  iterative
+Sequence is 16 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 88.65      2.31     2.31   100000    23.05    23.05  fib_rec
+  5.38      2.44     0.14                             frame_dummy
+  5.19      2.58     0.14   100000     1.35     1.35  fib_tail
+  0.38      2.59     0.01   100000     0.10     0.10  fib_tail_v2
+  0.38      2.60     0.01   100000     0.10     0.10  iterative
+Sequence is 17 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 90.80      3.50     3.50   100000    35.05    35.05  fib_rec
+  4.92      3.69     0.19                             frame_dummy
+  3.76      3.84     0.14   100000     1.45     1.45  fib_tail
+  0.26      3.85     0.01   100000     0.10     0.10  fib_tail_v2
+  0.26      3.86     0.01   100000     0.10     0.10  iterative
+Sequence is 18 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 91.13      5.96     5.96   100000    59.60    59.60  fib_rec
+  4.66      6.26     0.30   100000     3.05     3.05  fib_tail
+  4.20      6.54     0.28                             frame_dummy
+  0.00      6.54     0.00   100000     0.00     0.00  fib_tail_v2
+  0.00      6.54     0.00   100000     0.00     0.00  iterative
+Sequence is 19 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 91.44      9.55     9.55   100000    95.55    95.55  fib_rec
+  4.21      9.99     0.44                             frame_dummy
+  4.07     10.42     0.42   100000     4.25     4.25  fib_tail
+  0.14     10.44     0.01   100000     0.15     0.15  iterative
+  0.10     10.45     0.01                             main
+  0.05     10.45     0.01   100000     0.05     0.05  fib_tail_v2
+Sequence is 20 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 90.91     21.05    21.05   100000   210.55   210.55  fib_rec
+  4.86     22.18     1.12                             frame_dummy
+  4.06     23.12     0.94   100000     9.40     9.40  fib_tail
+  0.09     23.14     0.02   100000     0.20     0.20  fib_tail_v2
+  0.04     23.15     0.01   100000     0.10     0.10  iterative
+  0.04     23.16     0.01                             main
+Sequence is 21 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 89.77     27.52    27.52   100000   275.25   275.25  fib_rec
+  5.56     29.23     1.71                             frame_dummy
+  4.60     30.64     1.41   100000    14.10    14.10  fib_tail
+  0.07     30.66     0.02   100000     0.20     0.20  fib_tail_v2
+  0.00     30.66     0.00   100000     0.00     0.00  iterative
+Sequence is 22 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 90.39     51.16    51.16   100000   511.60   511.60  fib_rec
+  4.93     53.95     2.79                             frame_dummy
+  4.61     56.56     2.61   100000    26.10    26.10  fib_tail
+  0.04     56.59     0.03   100000     0.25     0.25  fib_tail_v2
+  0.02     56.59     0.01                             main
+  0.01     56.60     0.01   100000     0.05     0.05  iterative
+Sequence is 23 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 90.61     83.23    83.23   100000   832.35   832.35  fib_rec
+  5.09     87.91     4.67                             frame_dummy
+  4.25     91.81     3.90   100000    39.00    39.00  fib_tail
+  0.03     91.83     0.03   100000     0.25     0.25  fib_tail_v2
+  0.02     91.85     0.01   100000     0.15     0.15  iterative
+  0.01     91.86     0.01                             main
+Sequence is 24 
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 90.28    129.47   129.47   100000     1.29     1.29  fib_rec
+  5.24    136.97     7.51                             frame_dummy
+  4.48    143.40     6.42   100000     0.06     0.06  fib_tail
+  0.01    143.41     0.01   100000     0.00     0.00  iterative
+  0.00    143.41     0.00   100000     0.00     0.00  fib_tail_v2
